@@ -1,0 +1,10 @@
+ulimit -s unlimited
+#. /apps/chpc/earth/WRF-3.7-impi/setWRF
+cd /home/tgangiah/lustre/agricutlure
+#rm wrfout* rsl*
+#nproc=`cat $PBS_NODEFILE | wc -l`
+#echo nproc is $nproc
+#cat $PBS_NODEFILE
+#time mpirun -np $nproc wrf.exe > runWRF.out
+
+/apps/chpc/bio/python/3.5.1/bin/python3 /home/tgangiah/decont/decont.py -i 1C4_S12_L001_R1_001.fastq 1C4_S12_L001_R2_001.fastq -o 1C4-Phix-rem -t 24 -r /home/tgangiah/phix174_ill.ref.fa
