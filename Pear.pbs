@@ -1,0 +1,1 @@
+/home/tgangiah/pear-0.9.11-linux-x86_64/bin/pear -f 1C4-Phix-rem_1_trim.fastq -r 1C4-Phix-rem_2_trim.fastq -o 1C4-Phix-rem_merged.fastq -t 35 -j 24
