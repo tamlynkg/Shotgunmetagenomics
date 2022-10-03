@@ -1,0 +1,1 @@
+python /home/tgangiah/quast-master/metaquast.py /home/tgangiah/lustre/Arid_shotgun/MK2-50765743/MK2default-assembly/scaffolds.fasta /home/tgangiah/lustre/Arid_shotgun/MK2-50765743/MK2defined-assembly/scaffolds.fasta --threads 24 --test-no-ref
