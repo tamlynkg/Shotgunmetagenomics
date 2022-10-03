@@ -1,0 +1,1 @@
+/home/tgangiah/diamond blastp -d /home/tgangiah/lustre/nr-old.dmnd -q NK3scaffolds_result.faa -k 15 -a NK3scaffolds_result.daa -p 24 --more-sensitive
