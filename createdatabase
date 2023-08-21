@@ -1,5 +1,0 @@
-Module avail
-
-Module add Ncbi 
-
-Makebast db –in (file name)-dbtype prot -logfile makedb.log
